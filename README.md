@@ -15,6 +15,7 @@ Implemented IBM Watson's Natural Language Processing API.
 - Twitter API (using [Twitter4J](https://github.com/Twitter4J/Twitter4J))
 
 	register for Twitter Developer in order to get the oauth key and token needed
+	
 	instructions for creating 'twitter4j.properties' file can be found [here](https://twitter4j.org/en/configuration.html)
 - IBM Watson NLP API (using [NLP](https://cloud.ibm.com/apidocs/natural-language-understanding))
 
