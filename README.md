@@ -14,10 +14,32 @@ Implemented IBM Watson's Natural Language Processing API.
 # Setup
 - Twitter API (using [Twitter4J](https://github.com/Twitter4J/Twitter4J))
 
-	register for Twitter Developer in order to get the oauth key and token needed
+	1. register for Twitter Developer in order to get the oauth key and token needed
 	
-	instructions for creating 'twitter4j.properties' file can be found [here](https://twitter4j.org/en/configuration.html)
+	2. create 'twitter4j.properties' file in root
+	
+	3. enter the following and fill in with corresponding oauth key/token
+	
+	```
+	debug=true
+	oauth.consumerKey=*********************
+	oauth.consumerSecret=******************************************
+	oauth.accessToken=**************************************************
+	oauth.accessTokenSecret=******************************************
+	```
+	
+	more detailed (official) instructions can be found [here](https://twitter4j.org/en/configuration.html)
 - IBM Watson NLP API (using [NLP](https://cloud.ibm.com/apidocs/natural-language-understanding))
 
-	register for IBM Watson and create NLP app in order to get URL and API key needed to populate 'ibmnlp.properties' file (needs to be created)
+	1. register for IBM Watson and create NLP app 
+	
+	2. create 'ibmnlp.properties' file in root
+	
+	3. enter the following and fill in with corresponding url and token
+	
+	```
+	URL=https://api.us-south.natural-language-understanding.watson.cloud.ibm.com/instances/************************************
+	API=********************************************
+	VERSION=2021-03-25
+	```
 
