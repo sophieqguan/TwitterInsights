@@ -7,9 +7,20 @@ Implemented IBM Watson's Natural Language Processing API.
 	
 	e.g. 'Tartaglia is the best': searching for sentiment on keyword 'Tartaglia' will return 'joy' emotion
 
-- getting list of related keywords discussed by user
+- getting list of related concepts discussed by user
 
-	e.g. 'thank you for the support' might return keywords such as 'Gratitude'
+	e.g. 'thank you for the support': searching for concept will return terms such as 'Gratitude'
+
+# Launch
+
+- Twitter users to be analyzed is listed in 'users.txt' under data
+
+
+- Keywords to search for is listed in 'keywords.txt' under data
+
+
+- results are generated as .csv file under data/output
+
 
 # Setup
 - Twitter API (using [Twitter4J](https://github.com/Twitter4J/Twitter4J))
