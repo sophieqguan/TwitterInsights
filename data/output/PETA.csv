@@ -1,0 +1,9 @@
+type,word,relevance,primary emotion,PE pct,emotions,,,,
+keyword,game,NA,sadness,68%,anger: 0.105441,disgust: 0.309327,fear: 0.070094,joy: 0.065948,sadness: 0.682487
+keyword,government,NA,disgust,56%,anger: 0.303547,disgust: 0.560088,fear: 0.054182,joy: 0.08373,sadness: 0.083826
+keyword,monkey,NA,joy,41%,anger: 0.141042,disgust: 0.189875,fear: 0.102234,joy: 0.418627,sadness: 0.08314
+keyword,vegan,NA,joy,66%,anger: 0.082051,disgust: 0.216224,fear: 0.133491,joy: 0.666163,sadness: 0.576895
+keyword,dog,NA,joy,89%,anger: 0.003486,disgust: 0.028404,fear: 0.024575,joy: 0.891168,sadness: 0.057447
+concept,Oregon National Primate Research Center,0.83358,NA,NA,NA,,,,
+concept,Phoenix Arizona,0.941865,NA,NA,NA,,,,
+concept,Gannett Company,0.705067,NA,NA,NA,,,,

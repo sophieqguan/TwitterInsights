@@ -1,0 +1,11 @@
+type,word,relevance,primary emotion,PE pct,emotions,,,,
+keyword,lung,NA,anger,41%,anger: 0.417458,disgust: 0.057353,fear: 0.371344,joy: 0.10999,sadness: 0.293435
+keyword,game,NA,joy,70%,anger: 0.058201,disgust: 0.111387,fear: 0.067354,joy: 0.70791,sadness: 0.105038
+keyword,childe,NA,joy,65%,anger: 0.116472,disgust: 0.422645,fear: 0.093147,joy: 0.658128,sadness: 0.18902
+keyword,girlie,NA,joy,61%,anger: 0.072137,disgust: 0.053733,fear: 0.069238,joy: 0.610977,sadness: 0.115832
+keyword,sign,NA,joy,92%,anger: 0.007675,disgust: 0.006885,fear: 0.010449,joy: 0.920007,sadness: 0.055308
+keyword,tartaglia,NA,joy,86%,anger: 0.055759,disgust: 0.036448,fear: 0.021222,joy: 0.868303,sadness: 0.026985
+keyword,dog,NA,disgust,41%,anger: 0.138868,disgust: 0.413795,fear: 0.320834,joy: 0.193661,sadness: 0.125157
+concept,Gratitude,0.856956,NA,NA,NA,,,,
+concept,Voice acting,0.858986,NA,NA,NA,,,,
+concept,You Got It,0.918064,NA,NA,NA,,,,
