@@ -55,10 +55,9 @@ public class NLPAPI {
   }
 
   public List<ConceptsResult> processConcepts() {
+
     ConceptsOptions concepts = new ConceptsOptions.Builder().limit(50).build();
-
     Features features = new Features.Builder().concepts(concepts).build();
-
     AnalyzeOptions parameters = new AnalyzeOptions.Builder().text(text).features(features).build();
 
     AnalysisResults response =
