@@ -11,16 +11,6 @@ Implemented IBM Watson's Natural Language Processing API.
 
 	e.g. 'thank you for the support': searching for concept will return terms such as 'Gratitude'
 
-# Launch
-
-- Twitter users to be analyzed is listed in 'users.txt' under data
-
-
-- Keywords to search for is listed in 'keywords.txt' under data
-
-
-- results are generated as .csv file under data/output
-
 
 # Setup
 - Twitter API (using [Twitter4J](https://github.com/Twitter4J/Twitter4J))
@@ -49,8 +39,17 @@ Implemented IBM Watson's Natural Language Processing API.
 	3. enter the following and fill in with corresponding url and token
 	
 	```
-	URL=https://api.us-south.natural-language-understanding.watson.cloud.ibm.com/instances/************************************
+	URL=********************************************
 	API=********************************************
 	VERSION=2021-03-25
 	```
 
+# Input + Output
+
+- Twitter users to be analyzed is listed in 'users.txt' under ./data
+
+
+- Keywords to search for is listed in 'keywords.txt' under ./data
+
+
+- results are generated as .csv file under ./data/output

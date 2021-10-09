@@ -43,19 +43,6 @@ public class UserController {
       System.out.println("Analyzing for " + username + "...");
 
 
-      /*-
-       * List<String> targets = new LinkedList<String>();
-       
-        System.out.println("keyword to search for: (type 'done' when finished)");
-        inq = sc.next();
-      
-        while (!inq.equals("done")) {
-          if (!db.contains(inq))
-            targets.add(inq);
-          inq = sc.next();
-        }
-      */
-
       List<String> targets = Utilities.fileToList(BASE + "/keywords.txt");
 
       System.out.println(targets.size() + " keyword(s) to search");
